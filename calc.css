@@ -1,0 +1,40 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 320px;
+    margin-top: 80px;
+    background-color: black;
+}
+button, .result {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 32px;
+}
+.row {
+    height: 80px;
+    display: flex;
+    align-content: stretch;
+}
+
+.result {
+    color: white;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.button {
+    box-sizing: border-box;
+    margin: 0.3%;
+    background-color: grey;
+    border: none;
+    width: 24.4%;
+}
+
+.highlight-button {
+    background-color: orange;
+    color: white;
+}
+
+.span {
+    flex-grow: 1;
+}
